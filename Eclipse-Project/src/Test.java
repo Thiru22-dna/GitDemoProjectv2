@@ -1,15 +1,15 @@
 
 public class Test {
 	
-	int a=10;
-	int b=20;
-	int c;
-
 	public static void main(String[] args) {
+		int first=10;
+		int second=20;
 		
+		System.out.println(first+ " "+second);
+		int sum=first+second;
+		System.out.println(sum);
 		System.out.println("Welcome to Java");
-		c=a+b;
-		System.out.println(c);
+		System.out.println("The sum is:"+sum);
 
 	}
 
