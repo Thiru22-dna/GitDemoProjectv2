@@ -41,7 +41,7 @@ public class UsersController {
 	@DeleteMapping
 	public String deleteUsers()
 	{
-		return "http DELETE Request was sent";
+		return "http DELETE request was sent";
 	}
 
 }
